@@ -24,11 +24,11 @@ Navigation is a high-speed handoff between the Browser and Renderer processes.
 
 Waterfalls are the silent killers of web performance. They happen when resources are discovered sequentially -- like a treasure hunt where you can't see the next clue until you solve the current one.
 
-`HTML` -> `main.js` -> `API Fetch` -> `Image Load`
+`HTML` to `main.js` to `API Fetch` to `Image Load`
 
 **The Expert Fix:**
 
-- **RSC (React Server Components):** Eliminate the "JS -> API" round trip by fetching data on the server during the initial request.
+- **RSC (React Server Components):** Eliminate the "JS to API" round trip by fetching data on the server during the initial request.
 - **Preload/Preconnect:** Give the browser "spoilers." Tell it which domains and files it will need before the parser even finds them.
 - **Suspense:** Break the "all or nothing" rendering model. Let parts of the UI show up as their data arrives, rather than waiting for the slowest link in the chain.
 
@@ -44,7 +44,6 @@ Browsers are proactive. During idle cycles, they perform work based on predicted
 
 > **The Philosophy:** Security and stability are traded for memory overhead. Multi-process architectures protect the user but require significant RAM (Random Access Memory) and orchestration complexity.
 
-
 ### When to use this
 
 - **High-risk execution:** When running untrusted third-party scripts.
@@ -57,4 +56,4 @@ Browsers are proactive. During idle cycles, they perform work based on predicted
 
 ---
 
-_Deepen your knowledge:_ [Critical Rendering Path](./critical-rendering-path.md), [Speculative Prerendering](../web-platform-apis/speculative-optimization.md), [Server Components](../rendering-patterns/server-components.md)
+Related [Critical Rendering Path](./critical-rendering-path.md)

@@ -39,4 +39,4 @@ This directly improves **Interaction to Next Paint (INP)**. By ensuring the main
 
 ---
 
-_Deepen your knowledge:_ [Event Loop](./event-loop.md)
+Related [Event Loop](./event-loop.md)

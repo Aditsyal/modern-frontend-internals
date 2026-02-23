@@ -44,4 +44,4 @@ Don't let your code become a Microtask bully. If you have work that takes more t
 
 ---
 
-_Deepen your knowledge:_ [Event Loop](./event-loop.md), [Long Tasks API](./long-tasks.md), [Time Slicing](./time-slicing.md)
+Related [Event Loop](./event-loop.md), [Long Tasks API](./long-tasks.md), [Time Slicing](./time-slicing.md)

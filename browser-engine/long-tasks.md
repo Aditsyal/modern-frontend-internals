@@ -56,4 +56,4 @@ Treat the main thread as a precious resource. Every millisecond you spend there 
 
 ---
 
-_Deepen your knowledge:_ [Time Slicing](./time-slicing.md), [Event Loop](./event-loop.md)
+Related [Time Slicing](./time-slicing.md), [Event Loop](./event-loop.md)

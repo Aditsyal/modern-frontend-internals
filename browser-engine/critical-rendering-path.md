@@ -40,4 +40,4 @@ To win at the CRP, you must provide the "Above the Fold" styles immediately. By 
 
 ---
 
-_Deepen your knowledge:_ [LCP](./lcp.md), [Layout Thrashing](./layout-thrashing.md), [Compositing Layers](./compositing-layers.md)
+Related [Layout Thrashing](./layout-thrashing.md), [Compositing Layers](./compositing-layers.md)

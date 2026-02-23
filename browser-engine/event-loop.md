@@ -38,4 +38,4 @@ Unlike Microtasks, the loop only processes **one** Macrotask per cycle. After on
 
 ---
 
-_Deepen your knowledge:_ [Task Starvation](./task-starvation.md), [Long Tasks](./long-tasks.md)
+Related [Task Starvation](./task-starvation.md), [Long Tasks](./long-tasks.md)
