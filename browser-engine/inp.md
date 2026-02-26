@@ -1,6 +1,6 @@
 # Interaction to Next Paint (INP)
 
-INP is the ultimate "Lag Meter." It measures the gap between a user's action (click, tap, keypress) and the moment they see a visual response on the screen. If LCP is about how fast the site arrives, INP is about how well it works once it's there.
+INP is the ultimate "Lag Meter". It measures the gap between a user's action (click, tap, keypress) and the moment they see a visual response on the screen. If LCP is about how fast the site arrives, INP is about how well it works once it's there.
 
 ## The Three Phases of Frustration
 
@@ -53,4 +53,4 @@ async function handleHeavyAction() {
 
 ---
 
-Related [Web Vitals Overview](./web-vitals.md), [Event Loop](./event-loop.md), [Time Slicing](./time-slicing.md), [Concurrent Rendering](../react-core/concurrent-rendering.md)
+Related [Web Vitals Overview](./web-vitals.md), [Event Loop](./event-loop.md), [Time Slicing](./time-slicing.md)
