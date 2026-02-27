@@ -6,9 +6,9 @@ INP is the ultimate "Lag Meter". It measures the gap between a user's action (cl
 
 An INP score of 400ms is broken down into three distinct delays:
 
-1. **Input Delay:** "The browser is busy." The main thread is stuck finishing a Long Task (usually JS execution) and hasn't even noticed your click yet.
-2. **Processing Time:** "The code is running." The time your event handlers (`onClick`, etc.) take to execute.
-3. **Presentation Delay:** "The browser is drawing." The time it takes to recalculate the layout and paint the new frame after your code finished.
+1. **Input Delay:** "The browser is busy", The main thread is stuck finishing a Long Task (usually JS execution) and hasn't even noticed your click yet.
+2. **Processing Time:** "The code is running", The time your event handlers (`onClick`, etc.) take to execute.
+3. **Presentation Delay:** "The browser is drawing", The time it takes to recalculate the layout and paint the new frame after your code finished.
 
 ## Why FID Was a Vanity Metric
 
