@@ -1,6 +1,6 @@
 # Fiber Architecture: The Engine of Concurrency
 
-Fiber is the internal engine of React, introduced in version 16 to replace the old "Stack Reconciler." While the old reconciler used the JavaScript call stack (making it synchronous and recursive), Fiber uses a virtual stack implemented as a **linked-list of work units**.
+Fiber is the internal engine of React, introduced in version 16 to replace the old "Stack Reconciler". While the old reconciler used the JavaScript call stack (making it synchronous and recursive), Fiber uses a virtual stack implemented as a **linked-list of work units**.
 
 ## The Fiber Object
 
