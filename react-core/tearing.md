@@ -1,6 +1,6 @@
 # Tearing: The Consistency Challenge
 
-Tearing is a visual bug unique to Concurrent Rendering. It occurs when different parts of the UI display different values for the same piece of external state during a single "render transaction."
+Tearing is a visual bug unique to Concurrent Rendering. It occurs when different parts of the UI display different values for the same piece of external state during a single "render transaction".
 
 ## Why Tearing Happens
 
